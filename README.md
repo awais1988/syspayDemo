@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# Syspay Dashboard React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React-based dashboard application designed to manage and display data efficiently. It uses modern tools like Redux for state management and Axios for API communication.
+
+---
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- **Node.js** (version 20 or higher)
+- **Yarn** (recommended for package management)
+
+---
+
+## Getting Started
+
+Follow these steps to set up the project locally:
+
+1. **Clone the repository**:
+   Run the following command in your terminal:
+   `git clone https://github.com/awais1988/syspayDemo.git`
+
+2. **Navigate to the project directory**:
+   Run:
+   `cd syspaydemo`
+
+3. **Install dependencies**:
+   Run:
+   `yarn`
+
+4. **Start the development server**:
+   Run:
+   `yarn start`
+
+5. Open your browser and visit [http://localhost:3000](http://localhost:3000) to view the app.
+
+---
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can run the following commands:
 
-### `npm start`
+### `yarn`
 
-Runs the app in the development mode.\
+Installs all the required dependencies for the project.
+
+### `yarn start`
+
+Runs the app in development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- The page will reload automatically when you make changes.
+- You will also see any lint errors or warnings in the console.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Project Structure
 
-### `npm run build`
+The `src` folder is organized as follows:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `components/`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Contains reusable UI components.
+- **`commonComponents/`**: Houses components that are used across multiple parts of the application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `config/`
 
-### `npm run eject`
+- **`apiConfig.js`**: Contains API endpoints and configurations.
+- **`axiosConfig.js`**: Handles Axios request and response interceptors.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### `pages/`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Currently contains the `Dashboard` page.
+- Additional pages can be added here in the future.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### `store/`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Redux setup for state management.
+- Includes actions, reducers, and the store configuration.
 
-## Learn More
+### `styles/`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Contains global styles, themes, and CSS files.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### `utils/`
 
-### Code Splitting
+- Utility functions and helper files.
+- **`images/`**: Stores static images used in the project.
+- **`svgs/`**: Contains SVG icons and graphics.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **Frontend**: React, Redux, Axios
+- **Styling**: CSS (or mention if you're using a library like Tailwind CSS or Styled Components)
+- **Package Manager**: Yarn
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contact
 
-### Advanced Configuration
+For questions or feedback, feel free to reach out:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Email**: awaisahmed88@gmail.com
+- **GitHub**: [awais1988](https://github.com/awais1988)

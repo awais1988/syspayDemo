@@ -54,7 +54,7 @@ const Sidebar = () => {
     },
     {
       name: "Sign Out",
-      path: "/",
+      path: "/signout",
       icon: <ArrowRightStartOnRectangleIcon className="h-6 w-6" />,
     },
   ];
