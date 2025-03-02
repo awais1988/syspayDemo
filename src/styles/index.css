@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-legend-visitor {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12.3px;
+    color: #464E5F;
+  }
+.custom-legend-revenue {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12.3px;
+    color: #222B45;
+  }
+.target-chart-bold-txt{
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  color: #151D48;
+}
+.target-chart-sm-txt{
+  font-family: 'Poppins', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #737791;
+}
+.target-chart-val-txt{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.customer-chart-lbl-txt{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #96A5B8;
+}
+.customer-chart-val-txt{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #222B45;
+}
+.today-sale-num{
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  color: #151D48;
+}
+.today-sale-blk-txt{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #425166;
+}
+.today-sale-blue-txt{
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #4079ED;
+}
+.header-page-title{
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 3.125rem;
+  color: #151D48;
+}
+.sale-sumary-txt{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #737791;
+}
+  
