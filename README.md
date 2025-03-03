@@ -94,7 +94,7 @@ The `src` folder is organized as follows:
 ## Technologies Used
 
 - **Frontend**: React, Redux, Axios
-- **Styling**: CSS (or mention if you're using a library like Tailwind CSS or Styled Components)
+- **Styling**: Tailwind CSS
 - **Package Manager**: Yarn
 
 ---
